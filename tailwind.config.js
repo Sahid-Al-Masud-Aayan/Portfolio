@@ -15,6 +15,10 @@ export default {
         'playfair': ["Playfair Display", "serif"],
         'merri': ["Merriweather","serif"],
         'nav': ["PT Sans Narrow", "sans-serif"],
+        'slab': ["Roboto Slab", "serif"],
+        'narrow': ["PT Sans Narrow", "sans-serif"],
+        'headFont': ["Ga Maamli", "sans-serif"],
+        'subHed': ["Libre Baskerville", "serif"],
       },
   
     },
