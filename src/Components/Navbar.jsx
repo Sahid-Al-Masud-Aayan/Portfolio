@@ -22,30 +22,33 @@ const Navbar = () => {
                 </div>
             </div>
             <div className="mt-[90px]">
-             <NavLink to='/' className={({isActive}) => isActive ? "flex justify-start items-center gap-4 px-5 py-2 hover:backdrop-blur-lg bg-white/30 text-[24px]  text-[#fff] font-bold font-nav duration-200 rounded-lg":"flex justify-start items-center gap-4 px-5 py-2 backdrop-blur-lg bg-white/30  text-[24px]  text-white font-nav rounded-lg"}>
+             <NavLink to='/' className={({isActive}) => isActive ? "flex justify-start items-center gap-4 px-5 py-2 backdrop-blur-lg bg-white/30 text-[24px]  text-[#fff] font-nav duration-200 rounded-lg":"flex justify-start items-center gap-4 px-5 py-2 hover:backdrop-blur-lg hover:bg-white/30 duration-200  text-[24px] text-white font-nav rounded-lg"}>
             <IoHome className='text-[24px] text-white'/> 
              Home
             </NavLink>
             </div>
-            <div className=" flex items-center gap-4 mt-[41px]">
-            <NavLink to='/about' className={({isActive}) => isActive ? "flex justify-center items-center gap-4 p-5 backdrop-blur-lg bg-white/30 text-[24px]  text-[#fff] font-bold font-nav hover:text-[#bebebe] duration-200":"flex justify-center items-center gap-4 p-5 backdrop-blur-lg bg-white/30  text-[24px]  text-white font-nav hover:text-[#bebebe] duration-200 "}>
+            <div className="mt-[20px]">
+            <NavLink to='/about' className={({isActive}) => isActive ? "flex justify-start items-center gap-4 px-5 py-2  backdrop-blur-lg bg-white/30 text-[24px]  text-[#fff] font-nav rounded-lg duration-200":"rounded-lg flex justify-start items-center gap-4 px-5 py-2  hover:backdrop-blur-lg hover:bg-white/30  text-[24px]  text-white font-nav duration-200 "}>
             <FaAddressCard className=' text-[24px] text-white'/>
             About
             </NavLink>
             </div>
-            <div className=" flex items-center gap-4 mt-[41px]">
+            <div className="mt-[20px]">
+            <NavLink to='/projects' className={({isActive}) => isActive ? "flex justify-start items-center gap-4 px-5 py-2  backdrop-blur-lg bg-white/30 text-[24px]  text-[#ffffff] font-nav rounded-lg duration-200":"rounded-lg flex justify-start items-center gap-4 px-5 py-2  hover:backdrop-blur-lg hover:bg-white/30  text-[24px]  text-white font-nav duration-200"}>
             <MdSettingsSuggest className=' text-[24px] text-white'/> 
-            <NavLink to='/projects' className={({isActive}) => isActive ? "flex justify-center items-center gap-4 p-5 backdrop-blur-lg bg-white/30 text-[24px]  text-[#ffffff] font-bold font-nav hover:text-[#bebebe] duration-200":"flex justify-center items-center gap-4 p-5 backdrop-blur-lg bg-white/30  text-[24px]  text-white font-nav hover:text-[#bebebe] duration-200"}>Projects
+            Projects
             </NavLink>
             </div>
-            <div className=" flex items-center gap-4 mt-[41px]">
+            <div className="mt-[20px]">
+            <NavLink to='/skills' className={({isActive}) => isActive ? "flex justify-start items-center gap-4 px-5 py-2  backdrop-blur-lg bg-white/30 text-[24px]  text-[#fff] font-nav rounded-lg duration-200":"rounded-lg flex justify-start items-center gap-4 px-5 py-2  hover:backdrop-blur-lg hover:bg-white/30  text-[24px]  text-white font-nav  duration-200"}>
             <FaTableList className=' text-[24px] text-white'/> 
-            <NavLink to='/skills' className={({isActive}) => isActive ? "flex justify-center items-center gap-4 p-5 backdrop-blur-lg bg-white/30 text-[24px]  text-[#fff] font-bold font-nav hover:text-[#bebebe] duration-200":"flex justify-center items-center gap-4 p-5 backdrop-blur-lg bg-white/30  text-[24px]  text-white font-nav  hover:text-[bebebe3] duration-200"}>Skills
+            Skills
             </NavLink>
             </div>
-            <div className=" flex items-center gap-4 mt-[41px]">
+            <div className="mt-[20px]">
+            <NavLink to='/contact' className={({isActive}) => isActive ? "flex justify-start items-center gap-4 px-5 py-2  backdrop-blur-lg bg-white/30 text-[24px]  text-[#fff] font-nav rounded-lg duration-200":"rounded-lg flex justify-start items-center gap-4 px-5 py-2  hover:backdrop-blur-lg hover:bg-white/30  text-[24px]  text-white font-nav duration-200 "}>
             <MdContactPhone className=' text-[24px] text-white'/> 
-            <NavLink to='/contact' className={({isActive}) => isActive ? "flex justify-center items-center gap-4 p-5 backdrop-blur-lg bg-white/30 text-[24px]  text-[#fff] font-bold font-nav hover:text-[#bebebe] duration-200":"flex justify-center items-center gap-4 p-5 backdrop-blur-lg bg-white/30  text-[24px]  text-white font-nav hover:text-[#bebebe] duration-200 "}>Contact
+            Contact
             </NavLink>
             </div>
         </div>
