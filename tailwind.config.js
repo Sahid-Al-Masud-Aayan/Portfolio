@@ -19,11 +19,12 @@ export default {
         'narrow': ["PT Sans Narrow", "sans-serif"],
         'headFont': ["Ga Maamli", "sans-serif"],
         'subHed': ["Libre Baskerville", "serif"],
+        'montserrat': ["Montserrat", "sans-serif"],
       },
-  
     },
   },
-  plugins: [],
+  plugins: [
+  ],
 }
 
 
