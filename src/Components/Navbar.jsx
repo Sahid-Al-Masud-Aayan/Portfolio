@@ -17,7 +17,7 @@ const Navbar = () => {
     <ul className="w-full">
       <div className="container flex flex-col gap-3 items-center">
         <div className="hidden md:flex flex-col justify-center items-center">
-          <img className="h-[160px] w-[160px] mt-4 rounded-full" src="public/prf1.jpg" alt="Logo" />
+          <img className="h-[160px] w-[160px] mt-4 rounded-full" src="./prf1.jpg" alt="Logo" />
           <h3 className="text-[#c3c3c3] font-semibold text-[26px] text-center font-oswaldHd">Sahid Al Masud Aayan</h3>
           <div className="flex justify-center gap-2 items-center">
             <Lottie className="w-10 h-10" animationData={reactAnimation} />
