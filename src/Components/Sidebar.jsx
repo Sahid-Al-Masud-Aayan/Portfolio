@@ -65,7 +65,7 @@ const Sidebar = () => {
           </div>
         </ul>
       </div>
-      <div className="md:hidden flex justify-center items-center h-[50px] w-[50px] bg-gradient-to-r from-[#662D8C] to-[#ED1E79] rounded-full fixed top-0 z-50 mt-1 ml-[400px]">
+      <div className="md:hidden flex justify-center items-center h-[50px] w-[50px] bg-gradient-to-r from-[#662D8C] to-[#ED1E79] rounded-full fixed top-0 z-50 mt-1 ml-[350px]">
         <button onClick={toggleSidebar}>
           {isOpen ? <HiX className="text-3xl text-white" /> : <HiMenu className="text-3xl text-white" />}
         </button>

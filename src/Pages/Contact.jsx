@@ -72,7 +72,7 @@ const Contact = () => {
     <div className="container">
     <div className="flex justify-center items-center min-h-screen ">
     <div data-aos="flip-left">
-    <div className="w-[450px] h-auto md:w-[1000px] bg-gradient-to-r from-[#009245] to-[#FCEE21] rounded-3xl gap-2 p-5 mt-[60px] mb-[60px]">
+    <div className="w-[400px] h-auto md:w-[1000px] bg-gradient-to-r from-[#009245] to-[#FCEE21] rounded-3xl gap-2 p-5 mt-[60px] mb-[60px]">
     <div data-aos="fade-left"><h1 className='text-[48px] md:text-[60px] mt-2 font-headFont font-semibold text-center'>Contact Me</h1></div>
 <div data-aos="zoom-in-up">
       <div className="flex justify-around md:gap-0 gap-5 items-center md:scale-100 scale-90 mt-5">

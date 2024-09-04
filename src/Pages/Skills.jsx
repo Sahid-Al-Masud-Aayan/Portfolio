@@ -26,7 +26,7 @@ const Skills = () => {
         <div className="container">
     <div className="flex justify-center items-center min-h-screen">
     <div data-aos="fade-down">
-    <div className="w-[450px] md:h-[1800px] md:w-[1000px] bg-gradient-to-r from-[#9CECFB] to-[#0052D4] rounded-3xl flex flex-col items-center gap-2 p-4 mt-[60px] mb-[60px]">
+    <div className="w-[400px] md:h-[1800px] md:w-[1000px] bg-gradient-to-r from-[#9CECFB] to-[#0052D4] rounded-3xl flex flex-col items-center gap-2 p-4 mt-[60px] mb-[60px]">
     <div data-aos="fade-left"><h1 className='text-[48px] md:text-[60px] mt-2 font-headFont font-semibold '>My Skills</h1></div>
     <h3 className='text-[21px] md:text-[28px] font-nav mb-4 text-center text-[#ffffff]'>As a React developer, I excel in building dynamic and responsive web applications using a robust tech stack that includes React, HTML5, CSS3, and Tailwind CSS. My expertise extends to creating seamless user interfaces with advanced JavaScript techniques and state management tools like Redux. Additionally, I leverage Figma for crafting detailed UI/UX designs and use Canva to produce high-quality graphics. My focus is on delivering pixel-perfect, performant solutions that enhance user experience and meet modern web standards.</h3>
     <div data-aos="fade-up">

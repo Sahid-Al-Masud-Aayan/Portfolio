@@ -54,7 +54,7 @@ const Projects = () => {
     <div className="container">
     <div className="flex justify-center items-center min-h-screen ">
     <div data-aos="zoom-in-up">
-    <div className="w-[450px] md:h-[650px] md:w-[1200px] bg-gradient-to-r from-[#ee0979] to-[#ff6a00] rounded-[85px] gap-2 p-8 md:mt-0 md:mb-0 mt-[60px] mb-[60px]">
+    <div className="w-[400px] md:h-[650px] md:w-[1200px] bg-gradient-to-r from-[#ee0979] to-[#ff6a00] rounded-[85px] gap-2 p-8 md:mt-0 md:mb-0 mt-[60px] mb-[60px]">
     <div data-aos="fade-up"><h1 className='text-[48px] md:text-[60px] text-center mt-2 font-headFont font-semibold '>My Projects</h1></div>
     <div className="flex md:flex-row flex-col justify-center items-center gap-5 mt-6">
       

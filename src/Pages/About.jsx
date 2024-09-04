@@ -21,7 +21,7 @@ const About = () => {
     <div className="container">
     <div className="flex justify-center items-center min-h-screen ">
     <div data-aos="fade-left">
-    <div className="w-[450px] md:h-[1200px] md:w-[1000px] bg-gradient-to-r from-[#c2e59c] to-[#64b3f4] rounded-3xl text-center gap-2 p-6 md:p-4 mt-[60px] mb-[60px]">
+    <div className="w-[400px] md:h-[1200px] md:w-[1000px] bg-gradient-to-r from-[#c2e59c] to-[#64b3f4] rounded-3xl text-center gap-2 p-6 md:p-4 mt-[60px] mb-[60px]">
         <div data-aos="fade-left"><h1 className='text-[48px] md:text-[60px] mt-2 font-headFont font-semibold '>Who am I?</h1></div>
       <div className="md:flex md:flex-row md:gap-9 flex-col justify-center items-center mt-5 md:mt-10">
       <div data-aos="fade-up"><img src="./pfp2.png" className='w-[250px] h-[300px] md:w-[280px] md:h-[400px] rounded-xl ml-[76px] mb-6 md:ml-0 md:mb-0 md:rounded-3xl' alt="My Image" /></div>
