@@ -6,9 +6,9 @@ import Sidebar from '../Components/Sidebar'
 const LayoutOne = () => {
   return (
     <>
-          <div className="flex md:flex-row flex-col justify-center items-center">
+          <div className="flex">
         <Sidebar />
-        <div className="ml-[280px] md:ml-0 flex-1 flex-col justify-center items-center">
+        <div className="md:ml-0 flex-1">
           <Outlet />
         </div>
       </div>

@@ -38,13 +38,13 @@ const Contact = () => {
   const finalSubmit = (e)=>{
     e.preventDefault()
     if(!name){
-      SetNameError('Enter your name!')
+      SetNameError('Please enter your name.')
     }if(!Subject){
-    SetSubjectError('Enter your topic!')
+    SetSubjectError('Please enter your topic.')
     }if(!email){
-      SetemailError('Enter your email!')
+      SetemailError('Please enter your email.')
     }if(!Message){
-      SetMessageError('Enter your description!')
+      SetMessageError('Please enter your description.')
     }else{
       toast.success ('Message sent.', {
         position: "top-right",
@@ -72,10 +72,10 @@ const Contact = () => {
     <div className="container">
     <div className="flex justify-center items-center min-h-screen ">
     <div data-aos="flip-left">
-    <div className=" h-[1650px] w-[1000px] bg-gradient-to-r from-[#009245] to-[#FCEE21] rounded-3xl gap-2 p-5 mt-[49px] mb-[49px]">
-    <div data-aos="fade-left"><h1 className=' text-[60px] mt-2 font-headFont font-semibold text-center'>Contact Me</h1></div>
+    <div className="w-[450px] h-auto md:w-[1000px] bg-gradient-to-r from-[#009245] to-[#FCEE21] rounded-3xl gap-2 p-5 mt-[60px] mb-[60px]">
+    <div data-aos="fade-left"><h1 className='text-[48px] md:text-[60px] mt-2 font-headFont font-semibold text-center'>Contact Me</h1></div>
 <div data-aos="zoom-in-up">
-      <div className="flex justify-around items-center mt-5">
+      <div className="flex justify-around md:gap-0 gap-5 items-center md:scale-100 scale-90 mt-5">
 
       <div class=" hover:scale-95 duration-300 relative group text-sky-100  overflow-hidden w-96 h-44 rounded-md bg-sky-300 p-2 flex justify-center items-center font-extrabold shadow-xl">
 
@@ -86,7 +86,7 @@ const Contact = () => {
      <div className="flex flex-col justify-center items-center z-10">
      <MdMail className='text-5xl text-[#ffce3b]'/>
      <p className='text-2xl font-semibold font-slab mb-2 text-ellipsis'>Email</p>
-     <a className='group-hover:underline font-merri' href="mailto:aayan.webdeveloper@gmail.com">aayan.webdeveloper@gmail.com</a>
+     <a className='group-hover:underline font-merri text-[10px] md:text-[16px]' href="mailto:aayan.webdeveloper@gmail.com">aayan.webdeveloper@gmail.com</a>
      </div>
        </div>
 
@@ -104,7 +104,8 @@ const Contact = () => {
        </div>
       </div>
 </div>
-      <div className='mt-20 rounded-xl flex justify-center items-center'>
+<div data-aos="fade-left">
+<div className='mt-20 rounded-xl flex justify-center items-center'>
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3467.9425116365164!2d90.39191567511918!3d23.87310497858688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c43d9c3f1fa5%3A0x80006e825689f7fb!2s48%20Road-18%2C%20Dhaka%201230!5e1!3m2!1sen!2sbd!4v1725020132824!5m2!1sen!2sbd"
         width="850px"
@@ -115,37 +116,40 @@ const Contact = () => {
         referrerPolicy="no-referrer-when-downgrade"
       ></iframe>
     </div>
+</div>
 <div className="">
   
-      <h3 className='text-center mb-10 mt-20 text-[38px] font-subHed font-semibold text-[#00f7ff]'>Socials</h3>
+
+<div data-aos="fade-right"><h3 className='text-center mb-10 mt-20 text-[32px] md:text-[38px] font-subHed font-semibold text-[#00f7ff]'>Socials</h3></div>
   
-      
-         <div className="flex justify-around items-center gap-4 ">
-         <Link target='blank' to='https://www.facebook.com/' class="h-[140px] w-[140px] bg-[#0866FF] rounded-lg overflow-hidden relative group z-0 flex justify-center items-center gap-2 flex-col">
+      <div data-aos="flip-up">
+         <div className="flex md:justify-around justify-center items-center gap-8 md:gap-4">
+         <Link target='blank' to='https://www.facebook.com/' class="w-[120px] h-[120px] md:h-[140px] md:w-[140px] bg-[#0866FF] rounded-lg overflow-hidden relative group z-0 flex justify-center items-center gap-2 flex-col">
         <div class="circle absolute h-[5em] w-[5em] -top-[30%] -right-[6.5em] rounded-full bg-[#fff] group-hover:scale-[800%] duration-500 z-[-1] op"></div>
         <FaFacebook className='group-hover:text-[#0A66C2] text-6xl text-[#fff]'/>
         <h1 class="z-20 font-medium text-center text-white group-hover:text-[#0866FF] duration-500 text-[1.4em]">Facebook</h1>
          </Link>
          
          
-         <Link target='blank' to='https://www.linkedin.com/in/sahid-al-masud-aayan-348653301/' class="h-[140px] w-[140px] bg-[#0A66C2] rounded-lg overflow-hidden relative group z-0 flex justify-center items-center gap-2 flex-col">
+         <Link target='blank' to='https://www.linkedin.com/in/sahid-al-masud-aayan-348653301/' class="w-[120px] h-[120px] md:h-[140px] md:w-[140px] bg-[#0A66C2] rounded-lg overflow-hidden relative group z-0 flex justify-center items-center gap-2 flex-col">
         <div class="circle absolute h-[5em] w-[5em] top-[100%] -right-[2.5em] rounded-full bg-[#fff] group-hover:scale-[800%] duration-500 z-[-1] op"></div>
         <FaLinkedin className='group-hover:text-[#0A66C2] text-6xl text-[#fff]'/>
         <h1 class="z-20 font-medium text-center text-white group-hover:text-[#0A66C2] duration-500 text-[1.4em]">LinkedIn</h1>
          </Link>
 
-         <Link target='blank' to='https://github.com/Sahid-Al-Masud-Aayan' class="h-[140px] w-[140px] bg-[#1F2328] rounded-lg overflow-hidden relative group z-0 flex justify-center items-center gap-2 flex-col">
+         <Link target='blank' to='https://github.com/Sahid-Al-Masud-Aayan' class="w-[120px] h-[120px] md:h-[140px] md:w-[140px] bg-[#1F2328] rounded-lg overflow-hidden relative group z-0 flex justify-center items-center gap-2 flex-col">
          <div class="circle absolute h-[5em] w-[5em] -top-[30%] -right-[6.5em] rounded-full bg-[#fff] group-hover:scale-[800%] duration-500 z-[-1] op"></div>
         <FaGithub className='  group-hover:text-[#1F2328] text-6xl text-[#fff]'/>
         <h1 class="z-20 font-medium text-center text-white group-hover:text-[#1F2328] duration-500 text-[1.4em]">GitHub</h1>
          </Link>
          </div>
+      </div>
 </div>
 
-  <h2 className="mt-16 text-[38px] font-subHed text-center font-semibold text-[#ffffff]">Get in touch</h2>
-
+<div data-aos="fade-left"><h2 className="mt-16 text-[32px] md:text-[38px] font-subHed text-center font-semibold text-[#ffffff]">Get in touch</h2></div>
+<div data-aos="zoom-in-down">
   <form onSubmit={finalSubmit}>
-    <div className="px-12 mt-10 flex justify-between items-center">
+    <div className="px-12 mt-10 flex md:flex-row flex-col justify-between items-center">
     <div className="flex flex-col justify-center items-start">
     <p className='text-2xl text-gray-300 font-nav tracking-wide'>NAME</p>
     <input onChange={NameHandler} className='w-[400px] h-[35px] text-white outline-none bg-transparent border-b-[3px] border-white placeholder:text-gray-300 placeholder:text-2xl' type="text" />
@@ -158,7 +162,7 @@ const Contact = () => {
     <p className='text-[14px] text-red-600 font-subHed font-bold m-0 p-0'>{emailError}</p>
     </div>
     <div className="">
-    <p className='text-2xl text-gray-300 font-nav mb-3 tracking-wide'>MESSAGE</p>
+    <p className='text-2xl text-gray-300 font-nav mb-3 tracking-wide mt-8 md:mt-0'>MESSAGE</p>
     <textarea onChange={MessageHandler} className='w-[400px] h-[205px] text-white outline-none rounded-lg bg-transparent border-[2px] border-white placeholder:text-gray-300 p-2 placeholder:text-2xl' type="text" />
     <p className='text-[14px] text-red-600 font-subHed font-bold m-0 p-0'>{MessageError}</p>
      </div>
@@ -179,6 +183,7 @@ const Contact = () => {
 </button>
     </div>
   </form>
+</div>
 
   </div>
     </div>

@@ -54,9 +54,9 @@ const Projects = () => {
     <div className="container">
     <div className="flex justify-center items-center min-h-screen ">
     <div data-aos="zoom-in-up">
-    <div className=" h-[700px] w-[1200px] bg-gradient-to-r from-[#ee0979] to-[#ff6a00] rounded-[85px] gap-2 p-8 mt-[49px] mb-[49px]">
-    <div data-aos="fade-up"><h1 className=' text-[60px] text-center mt-2 font-headFont font-semibold '>My Projects</h1></div>
-    <div className="flex justify-center items-center gap-5 mt-6">
+    <div className="w-[450px] md:h-[700px] md:w-[1200px] bg-gradient-to-r from-[#ee0979] to-[#ff6a00] rounded-[85px] gap-2 p-8 mt-[49px] mb-[49px]">
+    <div data-aos="fade-up"><h1 className='text-[48px] md:text-[60px] text-center mt-2 font-headFont font-semibold '>My Projects</h1></div>
+    <div className="flex md:flex-row flex-col justify-center items-center gap-5 mt-6">
       
     <div onClick={openModal} className="w-[320px] h-[410px] rounded-xl overflow-hidden shadow-lg p-3 bg-white transform group transition-transform duration-300 cursor-pointer">
     <div class="relative overflow-hidden w-full h-[11rem] rounded-lg">
@@ -76,7 +76,7 @@ const Projects = () => {
           <div className="fixed mt-[49px] mb-[49px] inset-0 bg-black opacity-50 rounded-[85px]" onClick={closeModal}></div>
           <div data-aos="fade-up" data-aos-duration="900">
             <div className="">
-          <div className=" bg-white rounded-xl shadow-lg w-[800px] h-[590px] mx-4 p-6 z-10">
+          <div className=" bg-white rounded-xl shadow-lg md:w-[800px] md:h-[590px] mx-4 p-6 z-10">
               <div className="flex justify-end items-center">
               <button className=" text-gray-900 text-3xl hover:text-red-700 duration-100" onClick={closeModal}>
               <IoCloseCircle/>
@@ -88,9 +88,9 @@ const Projects = () => {
           <h2 className='flex justify-start items-center gap-2 font-oswaldHd tracking-widest text-[21px] ml-1'><FaExternalLinkAlt className='text-2xl'/> Preview: <span className=' tracking-wide font-bold hover:underline text-[18px]'> <Link target='blank' to='https://sahid-al-masud-aayan.github.io/Multiplier/'>https://sahid-al-masud-aayan.github.io/Multiplier/</Link></span></h2>
           </div>
             <div className="mt-6">
-              <div className="flex justify-center gap-4 items-center">
-              <img className="w-[370px] h-[230px] object-cover rounded" src="./public/pro2.png" alt="Project Details Image" />
-              <img className="w-[370px] h-[230px] object-cover rounded" src="./public/pro3.png" alt="Project Details Image" />
+              <div className="flex md:flex-row flex-col justify-center gap-4 items-center">
+              <img className="md:w-[370px] md:h-[230px] object-cover rounded" src="./public/pro2.png" alt="Project Details Image" />
+              <img className="md:w-[370px] md:h-[230px] object-cover rounded" src="./public/pro3.png" alt="Project Details Image" />
               </div>
               <p className="font-subHed mt-6 text-[17px]text-gray-700">
                 Welcome to Multiplier game! In this web application, put your desired number in the input and the hit on multiply button. Then in the orange box, you will get the times-table upto 10 of the number that you entered. To enter a new number, first reload the page and then enter your number again.
@@ -121,7 +121,7 @@ const Projects = () => {
           <div className="fixed mt-[49px] mb-[49px] inset-0 bg-black opacity-50 rounded-[85px]" onClick={closeModal2}></div>
           <div data-aos="fade-up" data-aos-duration="900">
             <div className="">
-          <div className=" bg-white rounded-xl shadow-lg w-[800px] h-[850px] mx-4 p-6 z-10">
+          <div className=" bg-white rounded-xl shadow-lg md:w-[800px] md:h-[850px] mx-4 p-6 z-10">
               <div className="flex justify-end items-center">
               <button className=" text-gray-900 text-3xl hover:text-red-700 duration-100" onClick={closeModal2}>
               <IoCloseCircle/>
@@ -133,13 +133,13 @@ const Projects = () => {
           <h2 className='flex justify-start items-center gap-2 font-oswaldHd tracking-widest text-[21px] ml-1'><FaExternalLinkAlt className='text-2xl'/> Preview: <span className=' tracking-wide font-bold hover:underline text-[18px]'> <Link target='blank' to='https://sahid-al-masud-aayan.github.io/Dark-themed-Number-Guessing-game/'>https://sahid-al-masud-aayan.github.io/Dark-themed-Number-Guessing-game/</Link></span></h2>
           </div>
             <div className="mt-6">
-              <div className="flex justify-center gap-4 items-center mb-4">
-              <img className="w-[370px] h-[230px] object-cover rounded" src="./public/pro11.png" alt="Project Details Image" />
-              <img className="w-[370px] h-[230px] object-cover rounded" src="./public/pro12.png" alt="Project Details Image" />
+              <div className="flex md:flex-row flex-col justify-center gap-4 items-center mb-4">
+              <img className="md:w-[370px] md:h-[230px] object-cover rounded" src="./public/pro11.png" alt="Project Details Image" />
+              <img className="md:w-[370px] md:h-[230px] object-cover rounded" src="./public/pro12.png" alt="Project Details Image" />
               </div>
-              <div className="flex justify-center gap-4 items-center">
-              <img className="w-[370px] h-[230px] object-cover rounded" src="./public/pro13.png" alt="Project Details Image" />
-              <img className="w-[370px] h-[230px] object-cover rounded" src="./public/pro15.png" alt="Project Details Image" />
+              <div className="flex md:flex-row flex-col justify-center gap-4 items-center">
+              <img className="md:w-[370px] md:h-[230px] object-cover rounded" src="./public/pro13.png" alt="Project Details Image" />
+              <img className="md:w-[370px] md:h-[230px] object-cover rounded" src="./public/pro15.png" alt="Project Details Image" />
               </div>
               <p className="font-subHed mt-6 text-[17px] text-gray-700">
 
@@ -173,7 +173,7 @@ const Projects = () => {
           <div className="fixed mt-[49px] mb-[49px] inset-0 bg-black opacity-50 rounded-[85px]" onClick={closeModal3}></div>
           <div data-aos="fade-up" data-aos-duration="900">
             <div className="">
-          <div className=" bg-white rounded-xl shadow-lg w-[800px] h-[850px] mx-4 p-6 z-10">
+          <div className=" bg-white rounded-xl shadow-lg md:w-[800px] md:h-[850px] mx-4 p-6 z-10">
               <div className="flex justify-end items-center">
               <button className=" text-gray-900 text-3xl hover:text-red-700 duration-100" onClick={closeModal3}>
               <IoCloseCircle/>
@@ -185,12 +185,12 @@ const Projects = () => {
           <h2 className='flex justify-start items-center gap-2 font-oswaldHd tracking-widest text-[21px] ml-1'><FaExternalLinkAlt className='text-2xl'/> Preview: <span className=' tracking-wide font-bold hover:underline text-[18px]'> <Link target='blank' to='https://sahid-al-masud-aayan.github.io/To-do-task/'>https://sahid-al-masud-aayan.github.io/To-do-task/</Link></span></h2>
           </div>
             <div className="mt-6">
-              <div className="flex justify-center gap-4 items-center mb-4">
-              <img className="w-[370px] h-[230px] object-cover rounded" src="./public/todo1.png" alt="Project Details Image" />
-              <img className="w-[370px] h-[230px] object-cover rounded" src="./public/todo2.png" alt="Project Details Image" />
+              <div className="flex md:flex-row flex-col justify-center gap-4 items-center mb-4">
+              <img className="md:w-[370px] md:h-[230px] object-cover rounded" src="./public/todo1.png" alt="Project Details Image" />
+              <img className="md:w-[370px] md:h-[230px] object-cover rounded" src="./public/todo2.png" alt="Project Details Image" />
               </div>
               <div className="flex justify-center gap-4 items-center">
-              <img className="w-[370px] h-[230px] object-cover rounded" src="./public/todo3.png" alt="Project Details Image" />
+              <img className="md:w-[370px] md:h-[230px] object-cover rounded" src="./public/todo3.png" alt="Project Details Image" />
               </div>
               <p className="font-subHed mt-6 text-[17px] text-gray-700">
               This is a Todo List application built with HTML, CSS, and JavaScript. This application empowers users to efficiently manage their tasks by allowing them to add new items, remove unwanted ones, and mark tasks as complete with a single click. It's an easy-to-use tool designed to enhance productivity and keep track of daily to-dos.
