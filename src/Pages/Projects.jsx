@@ -54,7 +54,7 @@ const Projects = () => {
     <div className="container">
     <div className="flex justify-center items-center min-h-screen ">
     <div data-aos="zoom-in-up">
-    <div className="w-[450px] md:h-[700px] md:w-[1200px] bg-gradient-to-r from-[#ee0979] to-[#ff6a00] rounded-[85px] gap-2 p-8 mt-[49px] mb-[49px]">
+    <div className="w-[450px] md:h-[650px] md:w-[1200px] bg-gradient-to-r from-[#ee0979] to-[#ff6a00] rounded-[85px] gap-2 p-8 md:mt-0 md:mb-0 mt-[60px] mb-[60px]">
     <div data-aos="fade-up"><h1 className='text-[48px] md:text-[60px] text-center mt-2 font-headFont font-semibold '>My Projects</h1></div>
     <div className="flex md:flex-row flex-col justify-center items-center gap-5 mt-6">
       
@@ -73,7 +73,7 @@ const Projects = () => {
       {isModalOpen && (
         
         <div className="fixed inset-0 flex items-center justify-center z-50">
-          <div className="fixed mt-[49px] mb-[49px] inset-0 bg-black opacity-50 rounded-[85px]" onClick={closeModal}></div>
+          <div className="fixed md:mt-0 md:mb-0 mt-[60px] mb-[60px] inset-0 bg-black opacity-50 rounded-[85px]" onClick={closeModal}></div>
           <div data-aos="fade-up" data-aos-duration="900">
             <div className="">
           <div className=" bg-white rounded-xl shadow-lg md:w-[800px] md:h-[590px] mx-4 p-6 z-10">
@@ -84,8 +84,8 @@ const Projects = () => {
               </div>
           <div className="font-bold text-4xl mb-6 text-center font-latoNav">Multiplier Game</div>
           <div className="flex flex-col justify-center items-start">
-          <h2 className='flex justify-start items-center gap-2 font-oswaldHd tracking-widest text-[21px] mb-1'><DiCodeBadge className='text-3xl'/> Language: <span className=' tracking-wide font-bold'>HTML, CSS and JavaScript</span></h2>
-          <h2 className='flex justify-start items-center gap-2 font-oswaldHd tracking-widest text-[21px] ml-1'><FaExternalLinkAlt className='text-2xl'/> Preview: <span className=' tracking-wide font-bold hover:underline text-[18px]'> <Link target='blank' to='https://sahid-al-masud-aayan.github.io/Multiplier/'>https://sahid-al-masud-aayan.github.io/Multiplier/</Link></span></h2>
+          <h2 className='flex justify-start items-center gap-2 font-slab tracking-widest text-[21px] mb-1'><DiCodeBadge className='text-3xl'/> Language: <span className=' tracking-wide font-bold'>HTML, CSS and JavaScript</span></h2>
+          <h2 className='flex justify-start items-center gap-2 font-slab tracking-widest text-[21px] ml-1'><FaExternalLinkAlt className='text-2xl'/> Preview: <span className=' tracking-wide font-bold hover:underline text-[15px]'> <Link target='blank' to='https://sahid-al-masud-aayan.github.io/Multiplier/'>https://sahid-al-masud-aayan.github.io/Multiplier/</Link></span></h2>
           </div>
             <div className="mt-6">
               <div className="flex md:flex-row flex-col justify-center gap-4 items-center">
@@ -118,10 +118,10 @@ const Projects = () => {
       {isModalOpen2 && (
         
         <div className="fixed inset-0 flex items-center justify-center z-50">
-          <div className="fixed mt-[49px] mb-[49px] inset-0 bg-black opacity-50 rounded-[85px]" onClick={closeModal2}></div>
+          <div className="fixed md:mt-0 md:mb-0 mt-[60px] mb-[60px] inset-0 bg-black opacity-50 rounded-[85px]" onClick={closeModal2}></div>
           <div data-aos="fade-up" data-aos-duration="900">
             <div className="">
-          <div className=" bg-white rounded-xl shadow-lg md:w-[800px] md:h-[850px] mx-4 p-6 z-10">
+          <div className=" bg-white rounded-xl shadow-lg md:w-[800px] md:h-[700px] mx-4 p-6 z-10">
               <div className="flex justify-end items-center">
               <button className=" text-gray-900 text-3xl hover:text-red-700 duration-100" onClick={closeModal2}>
               <IoCloseCircle/>
@@ -129,19 +129,19 @@ const Projects = () => {
               </div>
           <div className="font-bold text-4xl mb-6 text-center font-latoNav">Number Guessing Game</div>
           <div className="flex flex-col justify-center items-start">
-          <h2 className='flex justify-start items-center gap-2 font-oswaldHd tracking-widest text-[21px] mb-1'><DiCodeBadge className='text-3xl'/> Language: <span className=' tracking-wide font-bold'>HTML, CSS and JavaScript</span></h2>
-          <h2 className='flex justify-start items-center gap-2 font-oswaldHd tracking-widest text-[21px] ml-1'><FaExternalLinkAlt className='text-2xl'/> Preview: <span className=' tracking-wide font-bold hover:underline text-[18px]'> <Link target='blank' to='https://sahid-al-masud-aayan.github.io/Dark-themed-Number-Guessing-game/'>https://sahid-al-masud-aayan.github.io/Dark-themed-Number-Guessing-game/</Link></span></h2>
+          <h2 className='flex justify-start items-center gap-2 font-slab tracking-widest text-[21px] mb-1'><DiCodeBadge className='text-3xl'/> Language: <span className=' tracking-wide font-bold'>HTML, CSS and JavaScript</span></h2>
+          <h2 className='flex justify-start items-center gap-2 font-slab tracking-widest text-[21px] ml-1'><FaExternalLinkAlt className='text-2xl'/> Preview: <span className=' tracking-wide font-bold hover:underline text-[15px]'> <Link target='blank' to='https://sahid-al-masud-aayan.github.io/Dark-themed-Number-Guessing-game/'>https://sahid-al-masud-aayan.github.io/Dark-themed-Number-Guessing-game/</Link></span></h2>
           </div>
             <div className="mt-6">
               <div className="flex md:flex-row flex-col justify-center gap-4 items-center mb-4">
-              <img className="md:w-[370px] md:h-[230px] object-cover rounded" src="./public/pro11.png" alt="Project Details Image" />
-              <img className="md:w-[370px] md:h-[230px] object-cover rounded" src="./public/pro12.png" alt="Project Details Image" />
+              <img className="md:w-[370px] md:h-[180px] object-cover rounded" src="./public/pro11.png" alt="Project Details Image" />
+              <img className="md:w-[370px] md:h-[180px] object-cover rounded" src="./public/pro12.png" alt="Project Details Image" />
               </div>
               <div className="flex md:flex-row flex-col justify-center gap-4 items-center">
-              <img className="md:w-[370px] md:h-[230px] object-cover rounded" src="./public/pro13.png" alt="Project Details Image" />
-              <img className="md:w-[370px] md:h-[230px] object-cover rounded" src="./public/pro15.png" alt="Project Details Image" />
+              <img className="md:w-[370px] md:h-[180px] object-cover rounded" src="./public/pro13.png" alt="Project Details Image" />
+              <img className="md:w-[370px] md:h-[180px] object-cover rounded" src="./public/pro15.png" alt="Project Details Image" />
               </div>
-              <p className="font-subHed mt-6 text-[17px] text-gray-700">
+              <p className="font-subHed mt-6 text-[15px] text-gray-700">
 
                 Welcome to Number Guessing Game! In this two-player game, Player 1 begins by entering their name, followed by Player 2. Player 1 then selects a number between 1 and 10, which Player 2 must guess. Player 2 has five attempts to match the number chosen by Player 1. If Player 2 guesses correctly within five tries, they win; otherwise, Player 1 is declared the winner.
               </p>
@@ -170,10 +170,10 @@ const Projects = () => {
       {isModalOpen3 && (
         
         <div className="fixed inset-0 flex items-center justify-center z-50">
-          <div className="fixed mt-[49px] mb-[49px] inset-0 bg-black opacity-50 rounded-[85px]" onClick={closeModal3}></div>
+          <div className="fixed md:mt-0 md:mb-0 mt-[60px] mb-[60px] inset-0 bg-black opacity-50 rounded-[85px]" onClick={closeModal3}></div>
           <div data-aos="fade-up" data-aos-duration="900">
             <div className="">
-          <div className=" bg-white rounded-xl shadow-lg md:w-[800px] md:h-[850px] mx-4 p-6 z-10">
+          <div className=" bg-white rounded-xl shadow-lg md:w-[800px] md:h-[700px] mx-4 p-6 z-10">
               <div className="flex justify-end items-center">
               <button className=" text-gray-900 text-3xl hover:text-red-700 duration-100" onClick={closeModal3}>
               <IoCloseCircle/>
@@ -186,13 +186,13 @@ const Projects = () => {
           </div>
             <div className="mt-6">
               <div className="flex md:flex-row flex-col justify-center gap-4 items-center mb-4">
-              <img className="md:w-[370px] md:h-[230px] object-cover rounded" src="./public/todo1.png" alt="Project Details Image" />
-              <img className="md:w-[370px] md:h-[230px] object-cover rounded" src="./public/todo2.png" alt="Project Details Image" />
+              <img className="md:w-[370px] md:h-[180px] object-cover rounded" src="./public/todo1.png" alt="Project Details Image" />
+              <img className="md:w-[370px] md:h-[180px] object-cover rounded" src="./public/todo2.png" alt="Project Details Image" />
               </div>
               <div className="flex justify-center gap-4 items-center">
-              <img className="md:w-[370px] md:h-[230px] object-cover rounded" src="./public/todo3.png" alt="Project Details Image" />
+              <img className="md:w-[370px] md:h-[180px] object-cover rounded" src="./public/todo3.png" alt="Project Details Image" />
               </div>
-              <p className="font-subHed mt-6 text-[17px] text-gray-700">
+              <p className="font-subHed mt-6 text-[15px] text-gray-700">
               This is a Todo List application built with HTML, CSS, and JavaScript. This application empowers users to efficiently manage their tasks by allowing them to add new items, remove unwanted ones, and mark tasks as complete with a single click. It's an easy-to-use tool designed to enhance productivity and keep track of daily to-dos.
               </p>
             </div>
