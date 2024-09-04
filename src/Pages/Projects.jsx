@@ -60,7 +60,7 @@ const Projects = () => {
       
     <div onClick={openModal} className="w-[320px] h-[410px] rounded-xl overflow-hidden shadow-lg p-3 bg-white transform group transition-transform duration-300 cursor-pointer">
     <div class="relative overflow-hidden w-full h-[11rem] rounded-lg">
-        <img className="w-full h-[11rem] object-cover transform transition-transform duration-500 group-hover:scale-110" src="./public/pro1.png" alt="Project Image" />
+        <img className="w-full h-[11rem] object-cover transform transition-transform duration-500 group-hover:scale-110" src="./pro1.png" alt="Project Image" />
     </div>
         <div className="px-6 py-4">
           <div className="font-bold text-3xl mb-3 text-center font-latoNav">Multiplier Game</div>
@@ -89,8 +89,8 @@ const Projects = () => {
           </div>
             <div className="mt-6">
               <div className="flex md:flex-row flex-col justify-center gap-4 items-center">
-              <img className="md:w-[370px] md:h-[230px] object-cover rounded" src="./public/pro2.png" alt="Project Details Image" />
-              <img className="md:w-[370px] md:h-[230px] object-cover rounded" src="./public/pro3.png" alt="Project Details Image" />
+              <img className="md:w-[370px] md:h-[230px] object-cover rounded" src="./pro2.png" alt="Project Details Image" />
+              <img className="md:w-[370px] md:h-[230px] object-cover rounded" src="./pro3.png" alt="Project Details Image" />
               </div>
               <p className="font-subHed mt-6 text-[17px]text-gray-700">
                 Welcome to Multiplier game! In this web application, put your desired number in the input and the hit on multiply button. Then in the orange box, you will get the times-table upto 10 of the number that you entered. To enter a new number, first reload the page and then enter your number again.
@@ -105,7 +105,7 @@ const Projects = () => {
       )}
           <div onClick={openModal2} className="w-[320px] h-[410px] rounded-xl overflow-hidden shadow-lg p-3 bg-white transform group transition-transform duration-300 cursor-pointer">
     <div class="relative overflow-hidden w-full h-[11rem] rounded-lg">
-        <img className="w-full h-[11rem] object-cover transform transition-transform duration-500 group-hover:scale-110" src="./public/pro13.png" alt="Project Image" />
+        <img className="w-full h-[11rem] object-cover transform transition-transform duration-500 group-hover:scale-110" src="./pro13.png" alt="Project Image" />
     </div>
         <div className="px-6 py-4">
           <div className="font-bold text-3xl mb-3 text-center font-latoNav">Number Guessing Game</div>
@@ -134,12 +134,12 @@ const Projects = () => {
           </div>
             <div className="mt-6">
               <div className="flex md:flex-row flex-col justify-center gap-4 items-center mb-4">
-              <img className="md:w-[370px] md:h-[180px] object-cover rounded" src="./public/pro11.png" alt="Project Details Image" />
-              <img className="md:w-[370px] md:h-[180px] object-cover rounded" src="./public/pro12.png" alt="Project Details Image" />
+              <img className="md:w-[370px] md:h-[180px] object-cover rounded" src="./pro11.png" alt="Project Details Image" />
+              <img className="md:w-[370px] md:h-[180px] object-cover rounded" src="./pro12.png" alt="Project Details Image" />
               </div>
               <div className="flex md:flex-row flex-col justify-center gap-4 items-center">
-              <img className="md:w-[370px] md:h-[180px] object-cover rounded" src="./public/pro13.png" alt="Project Details Image" />
-              <img className="md:w-[370px] md:h-[180px] object-cover rounded" src="./public/pro15.png" alt="Project Details Image" />
+              <img className="md:w-[370px] md:h-[180px] object-cover rounded" src="./pro13.png" alt="Project Details Image" />
+              <img className="md:w-[370px] md:h-[180px] object-cover rounded" src="./pro15.png" alt="Project Details Image" />
               </div>
               <p className="font-subHed mt-6 text-[15px] text-gray-700">
 
@@ -157,7 +157,7 @@ const Projects = () => {
 
           <div onClick={openModal3} className="w-[320px] h-[410px] rounded-xl overflow-hidden shadow-lg p-3 bg-white transform group transition-transform duration-300 cursor-pointer">
     <div class="relative overflow-hidden w-full h-[11rem] rounded-lg">
-        <img className="w-full h-[11rem] object-cover transform transition-transform duration-500 group-hover:scale-110" src="./public/todo2.png" alt="Project Image" />
+        <img className="w-full h-[11rem] object-cover transform transition-transform duration-500 group-hover:scale-110" src="./todo2.png" alt="Project Image" />
     </div>
         <div className="px-6 py-4">
           <div className="font-bold text-3xl mb-3 text-center font-latoNav">Todo List</div>
@@ -181,16 +181,16 @@ const Projects = () => {
               </div>
           <div className="font-bold text-4xl mb-6 text-center font-latoNav">Todo List</div>
           <div className="flex flex-col justify-center items-start">
-          <h2 className='flex justify-start items-center gap-2 font-oswaldHd tracking-widest text-[21px] mb-1'><DiCodeBadge className='text-3xl'/> Language: <span className=' tracking-wide font-bold'>HTML, CSS and JavaScript</span></h2>
-          <h2 className='flex justify-start items-center gap-2 font-oswaldHd tracking-widest text-[21px] ml-1'><FaExternalLinkAlt className='text-2xl'/> Preview: <span className=' tracking-wide font-bold hover:underline text-[18px]'> <Link target='blank' to='https://sahid-al-masud-aayan.github.io/To-do-task/'>https://sahid-al-masud-aayan.github.io/To-do-task/</Link></span></h2>
+          <h2 className='flex justify-start items-center gap-2 font-slab tracking-widest text-[21px] mb-1'><DiCodeBadge className='text-3xl'/> Language: <span className=' tracking-wide font-bold'>HTML, CSS and JavaScript</span></h2>
+          <h2 className='flex justify-start items-center gap-2 font-slab tracking-widest text-[21px] ml-1'><FaExternalLinkAlt className='text-2xl'/> Preview: <span className=' tracking-wide font-bold hover:underline text-[18px]'> <Link target='blank' to='https://sahid-al-masud-aayan.github.io/To-do-task/'>https://sahid-al-masud-aayan.github.io/To-do-task/</Link></span></h2>
           </div>
             <div className="mt-6">
               <div className="flex md:flex-row flex-col justify-center gap-4 items-center mb-4">
-              <img className="md:w-[370px] md:h-[180px] object-cover rounded" src="./public/todo1.png" alt="Project Details Image" />
-              <img className="md:w-[370px] md:h-[180px] object-cover rounded" src="./public/todo2.png" alt="Project Details Image" />
+              <img className="md:w-[370px] md:h-[180px] object-cover rounded" src="./todo1.png" alt="Project Details Image" />
+              <img className="md:w-[370px] md:h-[180px] object-cover rounded" src="./todo2.png" alt="Project Details Image" />
               </div>
               <div className="flex justify-center gap-4 items-center">
-              <img className="md:w-[370px] md:h-[180px] object-cover rounded" src="./public/todo3.png" alt="Project Details Image" />
+              <img className="md:w-[370px] md:h-[180px] object-cover rounded" src="./todo3.png" alt="Project Details Image" />
               </div>
               <p className="font-subHed mt-6 text-[15px] text-gray-700">
               This is a Todo List application built with HTML, CSS, and JavaScript. This application empowers users to efficiently manage their tasks by allowing them to add new items, remove unwanted ones, and mark tasks as complete with a single click. It's an easy-to-use tool designed to enhance productivity and keep track of daily to-dos.
