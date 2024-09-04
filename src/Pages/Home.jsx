@@ -118,7 +118,7 @@ const Home = () => {
 
     <div data-aos="fade-down"><p className=' md:text-[14px] text-[12px] font-slab text-[#000000]'>I'm Aayan, a skilled React developer<br/>  with extensive experience in building <br/> dynamic and responsive web applications.</p></div>
       <div data-aos="zoom-in">
-      <a class="cursor-pointer overflow-hidden relative z-100 flex justify-center items-center gap-3 bg-gradient-to-r from-[#e65c00] to-[#F9D423] group py-2 px-5 md:px-14 md:py-3 mt-5 md:mt-10 md:ml-[115px] ml-0 rounded-full tracking-wide font-nav" download="Aayan's CV" href="cv1.pdf">
+      <a class="cursor-pointer overflow-hidden relative z-100 flex justify-center items-center gap-3 bg-gradient-to-r from-[#e65c00] to-[#F9D423] group py-2 px-5 md:px-14 md:py-3 mt-5 md:mt-10 md:ml-[115px] ml-0 rounded-full tracking-wide font-nav active:scale-90 duration-200" download="Aayan's CV" href="cv2.pdf">
         <FaFileArrowDown className='text-lg md:text-3xl text-white z-50' />
   <span class="relative z-10 text-white group-hover:text-white md:text-2xl text-lg duration-500">Download my CV</span>
   <span class="absolute w-full h-full bg-green-600 -left-56 top-0 -rotate-45 group-hover:rotate-0 group-hover:left-0 duration-500"></span>

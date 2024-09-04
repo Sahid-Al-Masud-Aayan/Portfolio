@@ -127,20 +127,20 @@ const Contact = () => {
          <Link target='blank' to='https://www.facebook.com/' class="w-[120px] h-[120px] md:h-[140px] md:w-[140px] bg-[#0866FF] rounded-lg overflow-hidden relative group z-0 flex justify-center items-center gap-2 flex-col">
         <div class="circle absolute h-[5em] w-[5em] -top-[30%] -right-[6.5em] rounded-full bg-[#fff] group-hover:scale-[800%] duration-500 z-[-1] op"></div>
         <FaFacebook className='group-hover:text-[#0A66C2] text-6xl text-[#fff]'/>
-        <h1 class="z-20 font-medium text-center text-white group-hover:text-[#0866FF] duration-500 text-[1.4em]">Facebook</h1>
+        <h1 class="z-20 font-medium text-center text-white group-hover:text-[#0866FF] duration-500 text-[15px] md:text-[1.4em]">Facebook</h1>
          </Link>
          
          
          <Link target='blank' to='https://www.linkedin.com/in/sahid-al-masud-aayan-348653301/' class="w-[120px] h-[120px] md:h-[140px] md:w-[140px] bg-[#0A66C2] rounded-lg overflow-hidden relative group z-0 flex justify-center items-center gap-2 flex-col">
         <div class="circle absolute h-[5em] w-[5em] top-[100%] -right-[2.5em] rounded-full bg-[#fff] group-hover:scale-[800%] duration-500 z-[-1] op"></div>
         <FaLinkedin className='group-hover:text-[#0A66C2] text-6xl text-[#fff]'/>
-        <h1 class="z-20 font-medium text-center text-white group-hover:text-[#0A66C2] duration-500 text-[1.4em]">LinkedIn</h1>
+        <h1 class="z-20 font-medium text-center text-white group-hover:text-[#0A66C2] duration-500 text-[15px] md:text-[1.4em]">LinkedIn</h1>
          </Link>
 
          <Link target='blank' to='https://github.com/Sahid-Al-Masud-Aayan' class="w-[120px] h-[120px] md:h-[140px] md:w-[140px] bg-[#1F2328] rounded-lg overflow-hidden relative group z-0 flex justify-center items-center gap-2 flex-col">
          <div class="circle absolute h-[5em] w-[5em] -top-[30%] -right-[6.5em] rounded-full bg-[#fff] group-hover:scale-[800%] duration-500 z-[-1] op"></div>
         <FaGithub className='  group-hover:text-[#1F2328] text-6xl text-[#fff]'/>
-        <h1 class="z-20 font-medium text-center text-white group-hover:text-[#1F2328] duration-500 text-[1.4em]">GitHub</h1>
+        <h1 class="z-20 font-medium text-center text-white group-hover:text-[#1F2328] duration-500 text-[15px] md:text-[1.4em]">GitHub</h1>
          </Link>
          </div>
       </div>
@@ -148,28 +148,28 @@ const Contact = () => {
 
 <div data-aos="fade-left"><h2 className="mt-16 text-[32px] md:text-[38px] font-subHed text-center font-semibold text-[#ffffff]">Get in touch</h2></div>
 <div data-aos="zoom-in-down">
-  <form onSubmit={finalSubmit}>
+  <form className='' onSubmit={finalSubmit}>
     <div className="px-12 mt-10 flex md:flex-row flex-col justify-between items-center">
     <div className="flex flex-col justify-center items-start">
     <p className='text-2xl text-gray-300 font-nav tracking-wide'>NAME</p>
-    <input onChange={NameHandler} className='w-[400px] h-[35px] text-white outline-none bg-transparent border-b-[3px] border-white placeholder:text-gray-300 placeholder:text-2xl' type="text" />
+    <input onChange={NameHandler} className='w-[350px] md:w-[400px] h-[35px] text-white outline-none bg-transparent border-b-[3px] border-white placeholder:text-gray-300 placeholder:text-2xl' type="text" />
     <p className='text-[14px] text-red-600 font-subHed font-bold m-0 p-0'>{nameError}</p>
     <p className='text-2xl text-gray-300 font-nav tracking-wide mt-6'>SUBJECT</p>
-    <input onChange={SubjectHandler} className='w-[400px] h-[35px] text-white outline-none bg-transparent border-b-[3px] border-white placeholder:text-gray-300 placeholder:text-2xl' type="text" />
+    <input onChange={SubjectHandler} className='w-[350px] md:w-[400px] h-[35px] text-white outline-none bg-transparent border-b-[3px] border-white placeholder:text-gray-300 placeholder:text-2xl' type="text" />
     <p className='text-[14px] text-red-600 font-subHed font-bold m-0 p-0'>{SubjectError}</p>
     <p className='text-2xl text-gray-300 font-nav tracking-wide mt-6'>EMAIL</p>
-    <input onChange={EmailHandler} className='w-[400px] h-[35px] text-white outline-none bg-transparent border-b-[3px] border-white placeholder:text-gray-300 placeholder:text-2xl' type="email" />
+    <input onChange={EmailHandler} className='w-[350px] md:w-[400px] h-[35px] text-white outline-none bg-transparent border-b-[3px] border-white placeholder:text-gray-300 placeholder:text-2xl' type="email" />
     <p className='text-[14px] text-red-600 font-subHed font-bold m-0 p-0'>{emailError}</p>
     </div>
     <div className="">
     <p className='text-2xl text-gray-300 font-nav mb-3 tracking-wide mt-8 md:mt-0'>MESSAGE</p>
-    <textarea onChange={MessageHandler} className='w-[400px] h-[205px] text-white outline-none rounded-lg bg-transparent border-[2px] border-white placeholder:text-gray-300 p-2 placeholder:text-2xl' type="text" />
+    <textarea onChange={MessageHandler} className='w-[350px] md:w-[400px] h-[205px] text-white outline-none rounded-lg bg-transparent border-[2px] border-white placeholder:text-gray-300 p-2 placeholder:text-2xl' type="text" />
     <p className='text-[14px] text-red-600 font-subHed font-bold m-0 p-0'>{MessageError}</p>
      </div>
     </div>
     <div className="flex justify-center items-center mt-7">
     <button type='submit'
-  class="invert hover:rotate-[-10deg] brightness-150 dark:brightness-100 group hover:shadow-lg hover:shadow-yellow-700 transition ease-in-out hover:scale-105 p-1 rounded-xl bg-gradient-to-br from-yellow-800 via-yellow-600 to-yellow-800 hover:from-yellow-700 hover:via-yellow-800 hover:to-yellow-600 active:scale-90 active:rotate-0"
+  class="invert font-montserrat hover:rotate-[-10deg] brightness-150 dark:brightness-100 group hover:shadow-lg hover:shadow-yellow-700 transition ease-in-out hover:scale-105 p-1 rounded-xl bg-gradient-to-br from-yellow-800 via-yellow-600 to-yellow-800 hover:from-yellow-700 hover:via-yellow-800 hover:to-yellow-600 active:scale-90 active:rotate-0"
 >
   <div
     class="px-6 py-2 backdrop-blur-xl bg-black/80 rounded-xl font-bold w-full h-full"
